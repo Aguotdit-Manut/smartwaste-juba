@@ -1,6 +1,6 @@
 <h1 align="center">SmartWaste Juba Connect</h1>
 
-SmartWaste Juba Connect is an AI-enabled waste collection, recycling, and environmental sustainability platform.
+SmartWaste Juba Connect — A Next-Generation AI-Enabled Waste Collection, Recycling and Environmental Sustainability Platform
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
