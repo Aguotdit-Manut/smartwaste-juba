@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5fbf7"/><stop offset=".52" stop-color="#dff2e5"/><stop offset="1" stop-color="#9bcba9"/></linearGradient>
+  <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a5a3c"/><stop offset="1" stop-color="#063322"/></linearGradient>
+  <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4d9b64"/><stop offset="1" stop-color="#0a4b31"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="1600" height="1000" fill="url(#sky)"/>
+<g opacity=".34" filter="url(#blur)">
+  <circle cx="180" cy="430" r="210" fill="#2e7c4b"/><circle cx="440" cy="410" r="230" fill="#4b9a5e"/><circle cx="720" cy="390" r="260" fill="#27734a"/><circle cx="1040" cy="410" r="250" fill="#5aa86b"/><circle cx="1370" cy="430" r="240" fill="#246c45"/>
+</g>
+<g opacity=".68" filter="url(#soft)" fill="url(#forest)">
+  <path d="M0 620V470c55-80 85-125 130-125s74 45 120 125v150z"/>
+  <path d="M210 620V420c60-105 96-155 150-155s92 50 150 155v200z"/>
+  <path d="M500 620V450c55-105 90-150 145-150s90 45 145 150v170z"/>
+  <path d="M820 620V410c62-110 98-160 155-160s96 50 155 160v210z"/>
+  <path d="M1130 620V445c55-100 92-145 145-145s90 45 145 145v175z"/>
+  <path d="M1380 620V420c55-95 90-140 140-140s70 45 80 140v200z"/>
+</g>
+<path d="M0 590 C180 540 280 585 430 555 C610 520 740 575 900 545 C1080 510 1210 570 1370 535 C1480 510 1550 525 1600 510 V1000 H0Z" fill="url(#ground)" opacity=".72" filter="url(#soft)"/>
+<g opacity=".52" filter="url(#soft)" fill="#063b28">
+  <circle cx="110" cy="680" r="115"/><circle cx="310" cy="700" r="95"/><circle cx="530" cy="665" r="130"/><circle cx="790" cy="700" r="105"/><circle cx="1020" cy="660" r="135"/><circle cx="1280" cy="700" r="105"/><circle cx="1490" cy="660" r="130"/>
+</g>
+<rect width="1600" height="1000" fill="url(#sky)" opacity=".12"/>
+</svg>
